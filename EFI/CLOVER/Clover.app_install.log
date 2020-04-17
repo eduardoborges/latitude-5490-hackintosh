@@ -1,0 +1,52 @@
+
+Clover Installer r5112 (95976da8c) (v1.1.2), 2020-04-16 01:25:58
+macOS Version 10.15.2 (Build 19C57)
+SELF = /Applications/Clover.app/Contents/MacOS/CloverDaemonNew
+Backup made at:
+/Users/eduardoborges/Desktop/CloverBackUp/LITEON CV8-8E256-11 SATA 256GB Media/r5111_2020-04-16_01-25-52/EFI.
+Target volume: /Volumes/EFI
+BSD Name:      disk0s1
+Filesystem:    FAT32
+Is internal:   true
+Is writable:   true
+
+Installing/Updating Clover:
++ ../BOOT/BOOTX64.efi
++ ../CLOVER/CLOVERX64.efi
+
+Installing/Updating drivers:
++ ../UEFI/AudioDxe.efi
++ ../UEFI/DataHubDxe.efi
++ ../UEFI/FSInject.efi
++ ../UEFI/SMCHelper.efi
++ ../UEFI/ApfsDriverLoader.efi
++ ../UEFI/Fat.efi
++ ../UEFI/VBoxExt2.efi
++ ../UEFI/VBoxExt4.efi
++ ../UEFI/VBoxHfs.efi
++ ../UEFI/VBoxIso9600.efi
++ ../UEFI/AppleImageCodec.efi
++ ../UEFI/AppleKeyAggregator.efi
++ ../UEFI/AppleKeyFeeder.efi
++ ../UEFI/AppleUITheme.efi
++ ../UEFI/FirmwareVolume.efi
++ ../UEFI/HashServiceFix.efi
++ ../UEFI/AptioInputFix.efi
++ ../UEFI/Ps2MouseDxe.efi
++ ../UEFI/UsbKbDxe.efi
++ ../UEFI/UsbMouseDxe.efi
++ ../UEFI/AptioMemoryFix.efi
++ ../UEFI/CsmVideoDxe.efi
++ ../UEFI/EmuVariableUefi.efi
++ ../UEFI/EnglishDxe.efi
++ ../UEFI/NvmExpressDxe.efi
++ ../UEFI/OsxFatBinaryDrv.efi
++ ../UEFI/PartitionDxe.efi
+
+Installing/Updating tools:
++ ../tools/Shell64.efi
++ ../tools/bdmesg.efi
++ ../tools/Shell64U.efi
++ ../tools/Shell32.efi
+
+Installing/Updating docs:

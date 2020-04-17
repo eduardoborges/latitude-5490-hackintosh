@@ -1,0 +1,36 @@
+
+Clover EFI installer log - Mon Mar 16 17:28:12 -03 2020
+Installer version: %CLOVERVERSION% r5105 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         255.9 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +255.9 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume OSX - Data              22.0 GB    disk1s1
+   2:                APFS Volume Preboot                 83.9 MB    disk1s2
+   3:                APFS Volume Recovery                528.5 MB   disk1s3
+   4:                APFS Volume VM                      8.6 GB     disk1s4
+   5:                APFS Volume OSX                     10.8 GB    disk1s5
+
+Target volume /Volumes/OSX on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/OSX/EFIROOTDIR/EFI folder to /Volumes/OSX/EFI-Backups/r5100/2020-03-16-17h28/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Removing UEFI/HFSPlus.efi because VBoxHfs.efi is installed!
+Removing UEFI/AptioMemoryFix-64.efi because AptioMemoryFix.efi is installed
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
