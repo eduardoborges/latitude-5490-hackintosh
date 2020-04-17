@@ -1,4 +1,6 @@
-# Dell Latitude 5490 Hackintosh Files
+# Dell Latitude 5490 Catalina Hackintosh
+
+![System Info](https://i.imgur.com/vyMp6X7l.png)
 
 ## What is working
 
